@@ -5,7 +5,7 @@
  * ===================================================================================================
  *       Version   | Date        | Author             | Comments
  * ---------------------------------------------------------------------------------------------------
- *       1.0       | 24 Jan,2018 | Saumya Chaturvedi  | trigger update Contact and Opportunity Field 
+ *       1.0       | 24 Jan,2019 | Saumya Chaturvedi  | trigger update Contact and Opportunity Field 
  *                                                        Don_t_Fund__c
  * ===================================================================================================
  */
@@ -13,7 +13,7 @@
 public with sharing class AccountDontFund_Con_OppHandler 
 {
 /*    
- *  @ Author Name : Saumya Chaturvedi
+ *  @ Author Name : Saumya Chaturvedi 
  *  @ Discription : Method to update DontFund field with True when Stage is Closed Lost 
  *  @ Param       : Trigger.new   as parameter
  *  @ Output      : update DontFund = true when Stage = Closed Lost or decline               
